@@ -1,0 +1,286 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sambal Uni Amel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+
+  <style>
+    .banner{
+      height: 80vh;
+      background: url(Sambal.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .banner-content{
+      height: 100%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .carausel-content{
+      background-color: black;
+      color: white;
+    }
+
+  </style>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-black sticky-top " style="background-color: white;">
+      <!-- untuk menentukan jarak otomatis kiri dan kanan. kalau pakai container biasa maka ketengah -->
+      <div class="container-fluid">
+        <!-- cara jadikan gambar logo disini -->
+        <a class="navbar-brand" href="#">
+        </a>
+        <img src="Logo-MS.jpg" width="30px" Sambal Uni Amel>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- jika ada collapse maka jika dikecilkan otomatis tertutup menU NYA -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- me = margin me auto berarti langsung pojok kanan kiri -->
+          <!-- ms =margin start -->
+          <!-- ada di menu spacing -->
+          <!-- ms-auto berarti beranda dll ada dipojok kanan -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- jika ditambahkan mx-3 maka akan nambah jarak -->
+            <li class="nav-item">
+              <!-- active berguna untuk membold kan -->
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Tulisan</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sambal Cumi</a></li>
+                <li><a class="dropdown-item" href="#">Sambal Teri</a></li>
+                <li><a class="dropdown-item" href="#">Sambal Matah</a></li>
+                <li><a class="dropdown-item" href="#">Sambal Bawang</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Produk Lainnya</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">Tentang</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir dari Nav bar-->
+
+    <!-- bg colour, -->
+    <!-- gimana caranya kasih margin -->
+
+
+    <div class="container-fluid banner">
+      <div class="container banner-content">
+        <div class="text-center">
+        <p class="fs-1">
+          Sambal Uni Amel
+        </p>
+        <h5 class="d-md-block">
+          Pedas terasa, kualitas terjaga, terjangkau harganya.
+      </div>
+
+    </div>
+
+    <!-- Produk Gallery -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Produk Kami</h2>
+        <div class="row">
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 20rem; height: 25rem;">
+              <img src="Sambal-cumi2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sambal Cumi</h5>
+                <p class="card-text">Cumi pedas pilihan dengan kompisisi cumi melimpah.</p>
+                <a href="#" class="btn btn-primary">Lihat Produk</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 20rem; height: 25rem;">
+              <img src="Sambal-Bawang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sambal Bawang</h5>
+                <p class="card-text">Perpaduan serasi bawang dan cabai dengan pedas terbaik.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 20rem; height: 25rem;">
+              <img src="Sambel-Matah2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sambal Matah</h5>
+                <p class="card-text">Rasa menarik karena dibuat dari sambah mentah tanpa digerus.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card" style="width: 20rem; height: 25rem;">
+              <img src="Sambal-Teri-Medan.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sambal Teri Medan</h5>
+                <p class="card-text">Teri pedas dengan protein tinggi rasa gurih </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+              
+
+
+
+
+
+    <!-- End Produk Gallery -->
+
+
+
+
+
+
+
+    <!-- Start Accordian -->
+    <div class="my-5 container"></div>
+      <h2 class=" text-center class mb-5">Kenapa Harus Sambal Uni Amel</h2>
+    <div class="accordion" id="accordionExample">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Terjamin Halal.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Kewajiban muslim mencari makanan halal.</strong> Sambal Uni Amel mampu menjamin kehalalan produk karena sudah tersertifikasi Halal. No....... .
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Lolos uji Kemenkes & BPOM.
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Kualitas sambal terjamin aman untuk kesehatan.</strong> Telah lolos uji SPP-PIRT yaitu sertifikasi produksi pangan industru rumah tangga No......
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Komitmen memberikan yang terbaik.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Kami tulus memberikan yang terbaik.</strong> Setiap produksi menghasilkan produk terbaik yang bermanfaat bagi konsumen.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Harga terjangkau bagi semua.
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Komitmen memberikan harga terjangkau.</strong> Agar memudahkan konsumen untuk berlangganan.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- End Accordian -->
+
+<!-- Blockquete -->
+<div class= "container-fluid py-5 bg-dark text-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Apa Kata custumer Kami</h2>
+
+    <div class="col-12">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Enak banget. Nggak sampai 2 hari udah habis...</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Shofwa <cite title="Source Title">STAI Thawalib</cite>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-12">
+    <figure class="text-end">
+      <blockquote class="blockquote">
+        <p>Namanya bukan sambel cumi, tapi cumi disambelin :) .</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Bu Iin <cite title="Source Title">Guru TK</cite>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-12">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Serasa sambal buatan ibu.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+         Pak Muhammad <cite title="Source Title">Tetangga sebelah</cite>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-12">
+    <figure class="text-end">
+      <blockquote class="blockquote">
+        <p>Rasanya terbaik, mending beli kesini daripada bikin sendiri</p>.
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Ibu Nahda <cite title="Source Title">Warga background-color</cite>
+      </figcaption>
+    </figure>
+  </div>
+      
+  </div>
+</div>
+
+<!-- End Of Blockquete -->
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
